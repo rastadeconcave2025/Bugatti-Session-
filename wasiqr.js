@@ -60,19 +60,19 @@ router.get('/', async (req, res) => {
 	
 				   let WASI_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃𝐵𝑢𝑔𝑎𝑡𝑡𝑖
-┃𝑆𝑢𝑐𝑐𝑒𝑠𝑓𝑢𝑙𝑙𝑦
-┃𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑒𝑑
+┃joel wa bot
+┃is connected 
+┃powered by joel_tech
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = 𝑀𝑎𝑟𝑖𝑠𝑒𝑙
+❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = joel-it
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vajvy2kEwEjwAKP4SI0x
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?https://wa.me/254740007567?
+owner? https://wa.link/i5vjax
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*𝑀𝑎𝑟𝑖𝑠𝑒𝑙 𝐴 𝑃𝑟𝑜 𝐷𝑒𝑣𝑒𝑙𝑜𝑝𝑒𝑟*
+©*keep using joel md*
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
