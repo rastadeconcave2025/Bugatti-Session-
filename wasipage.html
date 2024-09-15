@@ -58,7 +58,7 @@ if (screen.width > 768) {
           {
             try {
               const { data } = await axios(`https://api.github.com/users/${document.getElementById('name').value}`)
-              try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/Secktor-bot`); } 
+              try {const repo = await axios(`https://api.github.com/repos/${document.getElementById('name').value}/JOEL-MD`); } 
               catch (e) {
                 alert("Fork The Repository First.\nClick The 'OK' Button To Fork")
                 return location.replace('https://github.com/joeljamestech/JOEL-MD/fork')
