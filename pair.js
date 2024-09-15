@@ -54,12 +54,12 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'JOel-md' + b64data });
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
 ┃joel md
-┃𝑆𝑢𝑐𝑐𝑒𝑠𝑓𝑢𝑙𝑙𝑦
+┃succesfully
 ┃connected
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -70,9 +70,9 @@ router.get('/', async (req, res) => {
 wa group https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS
 owner https://wa.link/i5vjax
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*powered by joel tech*
+*©powered by joel tech*
 
-_Don't Forget To Give Star To My Repo_`
+Don't Forget To Give Star To My Repo`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
  
 
