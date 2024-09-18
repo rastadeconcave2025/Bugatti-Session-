@@ -54,23 +54,22 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: 'JOel-md' + b64data });
+               let session = await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id, { text: '' + b64data });
 
                let GIFTED_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃joel md
-┃succesfully
-┃connected
+┃ LEONARD MD
+┃ CONNECTED
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = joel_it
+ DEVELOPERERS
+  Leonardtech https://wa.link/dfa6wg
+  LOrd JOel   https://wa.link/i5vjax
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || wa Channel = https://whatsapp.com/channel/0029Vade9VgD38CPEnxfYF0M
+wa Channel = https://whatsapp.com/channel/0029VakLfckBlHpYVxryFJ14
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-wa group https://chat.whatsapp.com/GxlcVwkXrPo2YwNoQI5TwS
-owner https://wa.link/i5vjax
+Wa group 1https://chat.whatsapp.com/J54tT9uXXO81QLARCr7qQK
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*©powered by joel tech*
 
 Don't Forget To Give Star To My Repo`
  await Pair_Code_By_Gifted_Tech.sendMessage(Pair_Code_By_Gifted_Tech.user.id,{text:GIFTED_MD_TEXT},{quoted:session})
